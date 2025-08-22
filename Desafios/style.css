@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #cabecalho{
+        background-color: #F0EFFF;
+        text-align: center;
+        padding: 24px;/* Espaçamento interno do cabeçalho*/
+    
+    }
+     
+        #cabecalho h1{
+            color: #4037B5;
+
+     }
+
+
+     #cabecalho ul{
+        list-style: none;
+     }
+    
+#cabecalho ul li{
+    display: inline;
+}
+
+
+
