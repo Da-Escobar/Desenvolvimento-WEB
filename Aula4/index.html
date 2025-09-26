@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero1 = Number(prompt("Qual foi a nota da sua primeira AD de matemática?"))
+        let numero2 = Number(prompt("Qual foi a nota da sua segunda AD de matemática?"))
+        let numero3 = Number(prompt("Qual foi a nota da sua terceira AD de matemática?"))
+
+        let numero4 = numero1+numero2+numero3
+        let numero5 = numero4/3
+        if(numero5>= 6){
+            document.writeln(`Sua média foi ${numero5}, portanto você está aprovado`)
+        }if(numero5<6){
+            document.writeln(`Sua média foi ${numero5}, portanto você está reprovado`)
+        }
+    </script>
+</body>
+</html>
