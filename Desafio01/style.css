@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+    background-color: #A4B494;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.secaoWeb{
+    background-color: #3B5249;
+    color: rgb(243, 225, 225);
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.h2{
+    text-align: center;
+}
+#html{  
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+#html h3, #css h3, #JS h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+p{
+    font-size: 1.2em;
+}
+#css{ 
+    background-color: blue;
+    color: rgb(255, 246, 246);
+}
+section{
+    margin:30px 20px 0px 20px;
+    border-radius: 10px; 
+}
+#JS{
+    background-color: yellow
+}
+
